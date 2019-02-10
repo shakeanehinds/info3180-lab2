@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block main %}
+
+
+<section id="top">
+
+    <image class="dp" src="{{url_for('static', filename='215542.jpg')}}"></image>
+    <h1>Shakeane Hinds</h1>
+    <h6>@shinds</h6>
+    <h6>Kingston, Jamaica</h6>
+    <h6>Joined {{jdate}}</h6>
+
+</section>
+<section id="base">
+    <p>
+        I aim to become Skilled in Web Design, Computer Network Operations, Management & Marketing. an all round strong
+        information technology professional. Feel free to cantact me to colaborate on projects, i am always eager to take on new challenges.
+    </p>
+    <div class="grid">
+        <div class="griditem"><h4>750</h4></div>
+        <div class="griditem"><h4>17</h4></div>
+        <div class="griditem"><h4>250,000</h4></div>
+        <div class="griditem"><p>Posts</p></div>
+        <div class="griditem"><p>Following</p></div>
+        <div class="griditem"><p>Followers</p></div>
+    </div>
+    <button>Follow</button>
+</section>
+
+
+
+
+{% endblock %}
